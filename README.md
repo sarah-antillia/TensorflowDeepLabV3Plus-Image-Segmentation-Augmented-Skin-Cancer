@@ -230,7 +230,7 @@ in the following way.
 python ../../../src/TensorflowUNetGeneratorTrainer.py ./train_eval_infer.config
 </pre>
 Train console output:<br>
-<img src="./projects/TensorflowDeepLabV3Plus/Skin-Cancer/asset/train_console_output_at_epoch_45.png" width="720" height="auto"><br>
+<img src="./projects/TensorflowDeepLabV3Plus/Skin-Cancer/asset/train_console_output_at_epoch_37.png" width="720" height="auto"><br>
 Train metrics:<br>
 <img src="./projects/TensorflowDeepLabV3Plus/Skin-Cancer/asset/train_metrics.png" width="720" height="auto"><br>
 Train losses:<br>
@@ -267,14 +267,14 @@ and run the following bat file to evaluate TensorflowUNet model for Skin-Cancer.
 python ../../../src/TensorflowUNetEvaluator.py ./train_eval_infer.config
 </pre>
 Evaluation console output:<br>
-<img src="./projects/TensorflowDeepLabV3Plus/Skin-Cancer/asset/evaluate_console_output_at_epoch_45.png" width="720" height="auto">
+<img src="./projects/TensorflowDeepLabV3Plus/Skin-Cancer/asset/evaluate_console_output_at_epoch_37.png" width="720" height="auto">
 <pre>
 Test loss    :0.2449
 Test accuracy:0.9266999959945679
 </pre>
 As shown above, the loss score for the test dataset is not so low, and the accuracy not so high compared with 
 <a href="https://github.com/sarah-antillia/TensorflowEfficientUNet-Image-Segmentation-Augmented-Skin-Cancer">TensorflowEfficentUNet-Image-Segmentation-Augmented-Skin-Cancer.</a><br>
-<img src="https://github.com/sarah-antillia/TensorflowEfficientUNet-Image-Segmentation-Augmented-Skin-Cancer/blob/main/projects/TensorflowEfficientUNet/Skin-Cancer/asset/evalute_console_output_at_epoch_46.png" width="720" height="auto">
+<img src="https://github.com/sarah-antillia/TensorflowEfficientUNet-Image-Segmentation-Augmented-Skin-Cancer/blob/main/projects/TensorflowEfficientUNet/Skin-Cancer/asset/evaluate_console_output_at_epoch_45.png" width="720" height="auto">
 <br>
 <pre>
 Test loss    :0.2369
