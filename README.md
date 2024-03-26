@@ -5,7 +5,7 @@ the <a href="https://github.com/sarah-antillia/Tensorflow-Image-Segmentation-API
 <a href="https://drive.google.com/file/d/1kb7Tc9OSDQ28h83QKstXrhxMuKgWQb89/view?usp=sharing">Skin-Cancer-ImageMask-Dataset.zip</a>
 
 <br>
-Segmentation samples.<br>
+Segmentation samples by TensorflowDeepLabV3Plus Model.<br>
 <img src="./projects/TensorflowDeepLabV3Plus/Skin-Cancer/asset/segmentation_samples.png" width="720" height="auto">
 <br>
 
